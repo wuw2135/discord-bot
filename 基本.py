@@ -59,4 +59,4 @@ async def on_message(msg):
         await msg.channel.send(random_pic)
     await bot.process_commands(msg)
 
-bot.run('ODA2NTc1OTExMDMzNTAzNzk1.YBrcWg.uWD0l_9CsyHE2FGmYcIcPUbRIH0')
+bot.run('')
