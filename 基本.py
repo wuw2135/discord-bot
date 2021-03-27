@@ -14,13 +14,13 @@ async def on_ready():
 @bot.event
 async def on_member_join(member):                
     #成員加進來的時候跳出訊息
-    channel = bot.get_channel(565933724517138465)
+    channel = bot.get_channel(channel_number)
     await channel.send(f'{member}加進來了(ﾉ>ω<)ﾉ')
 
 @bot.event
 async def on_member_remove(member):              
     #成員離開的時候跳出訊息     
-    channel = bot.get_channel(565933724517138465)
+    channel = bot.get_channel(channel_number)
     await channel.send(f'{member}走掉了｡ﾟヽ(ﾟ´Д`)ﾉﾟ｡')
 
 @bot.command()
